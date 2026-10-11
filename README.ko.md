@@ -29,7 +29,7 @@ date -u MMDDhhmmYYYY    # 예: date -u 0916120026 = UTC 2026년 9월 16일 12시
 없습니다.** 확인은 `readelf -d /system/lib/libbnetapi.so`에
 `libssl.so.3`/`libcrypto.so.3`가 있는지 보면 됩니다. 이건 부팅 후에 고칠
 방법이 없습니다 -- `http://`를 쓰거나,
-[`haiku-renku-arm64-ssltlspatch`](https://github.com/rainygirl/haiku-renku-arm64-ssltlspatch)로
+[`haiku-renku-arm64-ssltlspatch`](https://github.com/rainygirl/renkuos-renku-arm64-ssltlspatch)로
 빌드된 이미지를 쓰는 것뿐입니다.
 
 - **TLS 없음(흔한 경우):** 이 저장소의 http 미러를 쓰면
@@ -52,7 +52,7 @@ date -u MMDDhhmmYYYY    # 예: date -u 0916120026 = UTC 2026년 9월 16일 12시
   바로 쓰면 됩니다:
 
   ```sh
-  pkgman add-repo https://raw.githubusercontent.com/rainygirl/haiku-rwebpositive-arm64/main
+  pkgman add-repo https://raw.githubusercontent.com/rainygirl/renkuos-rwebpositive-arm64/main
   pkgman install webpositive libmedia_bootstrap
   ```
 

@@ -1825,7 +1825,7 @@ at all.
 
 Built and verified `~/Workspace/haiku-apps/renku-arm64-ssltlspatch/
 add-ssl-arm64.sh` (its own GitHub repo:
-https://github.com/rainygirl/haiku-renku-arm64-ssltlspatch): stages
+https://github.com/rainygirl/renkuos-renku-arm64-ssltlspatch): stages
 `openssl3`/`openssl3_devel` into the arm64 bootstrap repository so
 `build/jam/BuildFeatures`'s `openssl` feature turns on -- no Jamfile edits
 needed, `build/jam/DefaultBuildProfiles` already does
@@ -1886,7 +1886,7 @@ straightforward once known; see the commits that added `repo`/`repo.info`/
 `repo.sha256` at this repository's root, and the fix in the sibling
 `haiku-renku-arm64-ssltlspatch` project.
 
-`pkgman add-repo https://raw.githubusercontent.com/rainygirl/haiku-rwebpositive-arm64/main`
+`pkgman add-repo https://raw.githubusercontent.com/rainygirl/renkuos-rwebpositive-arm64/main`
 followed by `pkgman install webpositive libmedia_bootstrap` now installs
 and runs WebPositive with no attached media and no offline injection at
 all -- see the README for the exact commands. `install-webpositive-arm64.sh`

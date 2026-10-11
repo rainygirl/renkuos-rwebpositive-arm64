@@ -31,7 +31,7 @@ date -u MMDDhhmmYYYY    # example: date -u 0916120026 is Sep 16, 12:00, 2026 UTC
 not.** Check by looking for `libssl.so.3`/`libcrypto.so.3` in
 `readelf -d /system/lib/libbnetapi.so`. There is no way to fix this at
 runtime; either use `http://` instead, or use an image built with
-[`haiku-renku-arm64-ssltlspatch`](https://github.com/rainygirl/haiku-renku-arm64-ssltlspatch).
+[`haiku-renku-arm64-ssltlspatch`](https://github.com/rainygirl/renkuos-renku-arm64-ssltlspatch).
 
 - **No TLS (the common case):** use the plain-HTTP mirror of this
   repository, and `webpositive`/`libmedia_bootstrap` come down over `http://`
@@ -54,7 +54,7 @@ runtime; either use `http://` instead, or use an image built with
   directly, no mirror needed:
 
   ```sh
-  pkgman add-repo https://raw.githubusercontent.com/rainygirl/haiku-rwebpositive-arm64/main
+  pkgman add-repo https://raw.githubusercontent.com/rainygirl/renkuos-rwebpositive-arm64/main
   pkgman install webpositive libmedia_bootstrap
   ```
 
