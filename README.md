@@ -304,6 +304,11 @@ are off.
 | ![haiku-os.org](screenshots/webpositive-haiku-os-org.png) | haiku-os.org over https |
 | ![Installed by the script](screenshots/installed-webpositive-naver-arm64.png) | Naver News, in a WebPositive the installer had just put onto a system that had none |
 
-This program was written with Claude. The app_server patch in this
+## AI disclosure
+
+Parts of this project were developed with the assistance of AI coding tools
+(Anthropic's Claude). All code has been reviewed and tested by the author.
+
+The app_server patch in this
 repository is AI-assisted work; the Haiku project does not accept such
 contributions, and it has not been and should not be submitted upstream.

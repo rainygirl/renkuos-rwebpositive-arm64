@@ -295,6 +295,11 @@ sudo dd if=haiku-arm64.image of=/dev/rdiskN bs=4m
 | ![haiku-os.org](screenshots/webpositive-haiku-os-org.png) | https로 접속한 haiku-os.org |
 | ![설치 스크립트로 넣은 브라우저](screenshots/installed-webpositive-naver-arm64.png) | 브라우저가 없던 시스템에 설치 스크립트로 막 넣은 WebPositive에서 본 네이버 뉴스 |
 
-이 프로그램은 Claude와 함께 작업해 만들었습니다. 이 저장소의 app_server 패치는
+## AI 사용 고지
+
+이 프로젝트의 일부는 AI 코딩 도구(Anthropic Claude)의 도움을 받아 개발했습니다.
+모든 코드는 작성자가 검토하고 테스트했습니다.
+
+이 저장소의 app_server 패치는
 AI가 개입한 작업이며, Haiku 프로젝트는 그런 기여를 받지 않으므로 업스트림에
 제출된 적이 없고 제출해서도 안 됩니다.
